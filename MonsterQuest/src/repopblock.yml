@@ -1,0 +1,7 @@
+#Liste de tout les materials : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+Block:
+    COAL_ORE: 5
+    COBBLESTONE: 5
+    IRON_ORE: 5
+Worlds:
+    - "*"

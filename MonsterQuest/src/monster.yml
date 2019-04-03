@@ -1,0 +1,5 @@
+monsterquest:
+    xpBoostServer: 1.0
+    createGuildCost: 15000
+    timeToWaitForReSendGuildInvitation: 60
+    timeToWaitForWantToSendRequestJoin: 120

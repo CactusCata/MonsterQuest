@@ -1,0 +1,72 @@
+name: MonsterQuest
+main: com.gmail.cactuscata.mq.Main
+version: 1.0.0
+author: CactusCata
+commands:
+    board:
+        description: Permet de creer un scoreboar
+        usage: /<command>
+        permission: pcm.board
+        
+    settag:
+        description: Permet de mettre des suffix & des prefix aux joueurs
+        usage: /<command> [setprefix || setsuffix] [player]
+        permission: setnametag.settag
+        
+    repopblock:
+        description: Permet de reload le fichier de config
+        permission: repopblock.reload
+        usage: /<command> [reload]
+        
+    tpotherserver:
+        description: Permet de teleporter un joueur sur un autre servceur du bungee
+        permission: mq.admin.tpotherserver
+        usage: /<command> <player> <server>
+        
+    eco:
+        description: Permet d'ajouter, de retirer ou de mettre de l'argent a un joueur
+        permission: essentials.eco.set
+        usage: /<command> [text] [amount] [player]
+        
+    pay:
+        description: Permet de payer un joueur
+        permission: essentials.eco.pay
+        usage: /<command> [player]
+        
+    balance:
+        aliases: [money]
+        description: Permet de voir son son argent
+        permission: essentials.eco.balance
+        usage: /<command>
+        
+    addxp:
+        description: Permet d'ajouter de lxp
+        permission: mq.admin.level
+        usage: /<command> [joueur] [money]
+        
+    mana:
+        description: Permet d'ajouter ou de retirer du mana
+        permission: mq.admin.mana
+        usage: /<command> [joueur] [section] [amount]
+        
+    guild:
+        aliases: [g,guilde]
+        description: Permet de creer, de supprimer ou d'inviter des joueurs dans ca guilde
+        permission: mq.guild
+        usage: /<command> [action]
+        
+    guildadmin:
+        description: Permet de modifier une guilde via la commande
+        permission: mq.admin.guild
+        usage: /<command> [action]
+        
+    menu:
+        description: Permet d'afficher une menu
+        permission: mq.menu
+        usage: /<command>
+        
+    aptitudes:
+        aliases: [apt, aptitude]
+        description: Permet de placer ou de retirer des points d'aptitudes
+        permission: mq.apt
+        usage: /<command>
